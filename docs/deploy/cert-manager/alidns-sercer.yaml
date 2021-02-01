@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: alidns-secret
+  namespace: cert-manager
+dataString:
+  access-key: "你的阿里云appkey"
+  secret-key: "你的阿里云secretKey"
